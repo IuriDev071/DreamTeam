@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Principal | DreamTeam</title>
+    <link href="styleMain.css" link rel="stylesheet">
+    <link href="Default-header/header_tool.css" link rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link href="mainPage.css"  link rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="nav-bar">
+
+            <img src="imagens/elonmuskk.png" class="imgAV">
+            <input type="text" id="entradaNome" class="entradaNome" readonly>
+
+            <button onclick="logOut()" class="logout">Sair</button>
+        </div>
+    </header>
+    <main style="background-color: #212529;">
+        <div class="tool-bar">
+            <button onclick="showPerfil()" class="mainButtonBar">Perfil</button>
+            <br>
+            <button onclick="backPage()" class="buttonBar">Feed</button>
+            <br>
+            <button onclick="showDados()" class="buttonBar">Meus dados</button>
+            <br>
+            <button onclick="Direct()" class="buttonBar">Apagar conta</button>
+            <br>
+          
+        </div>
+        <div class="inicialPage">
+           
+
+            <div class="user1">
+                <img src="imagens/jeff.jpg" class="img1">
+
+                <input id="name11" class="nome1" readonly>
+                <input id="profi11" class="profi1" readonly>
+                <textarea id="area11" class="area1" maxlength="100" readonly style="resize: none"></textarea>
+                <button onclick="viewPerfil()" class="bt1">Visualizar perfil</button>
+            </div>
+
+            <div class="user2">
+                <img src="imagens/zuckk.jpg" class="img2">
+
+                <input id="name22" class="nome2" readonly>
+                <input id="profi22" class="profi2" readonly>
+                <textarea id="area22" class="area2" maxlength="100" readonly style="resize: none"></textarea>
+                <button onclick="viewPerfil2()" class="bt2">Visualizar perfil</button>
+            </div>
+
+            <div class="user3">
+                <img src="imagens/billgates.png" class="img2">
+
+                <input id="name33" class="nome2" readonly>
+                <input id="profi33" class="profi2" readonly>
+                <textarea id="area33" class="area2" maxlength="100" readonly style="resize: none"></textarea>
+                <button onclick="viewPerfil3()" class="bt2">Visualizar perfil</button>
+            </div>
+        </div>
+       
+    </main>
+    <footer>
+    </footer>
+    <script src="mainpage.js"></script>
+    <script src="mainpage2.js"></script>
+    <script src="scriptArea2.js"></script>
+    <script src="favoritos.js"></script>
+    <script src="heroi.js"></script>
+    <script src="log2.js"></script>
+    <script src="scriptArea.js"></script>
+</body>
+
+</html>

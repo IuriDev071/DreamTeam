@@ -1,0 +1,210 @@
+/* !!! HEADER E TOOL BAR EM CSS SÓ LINKAR NO SEU CÓDIGO !!! */
+.swal-overlay {
+    background-color: rgba(184, 111, 165, 0.308);
+  }
+  .swal-button{
+    background-color: #6818b5 !important;
+    color: rgb(255, 255, 255) !important;
+    border: 2 solid #8047cf!important;
+  }
+  .swal-title{
+    color: #6818b5;
+    font-size: 25px;
+  }
+  .swal-text{
+    color: #6818b5;
+    font-size: 20px;
+  }
+  .swal-modal{
+    background-color: #ffffff;
+    border: 6px solid #6818b5;
+    border-radius: 3px;
+  }
+  .swal-button:hover{
+    transform: scale(1.05);
+}
+body {
+    background-color: #212529;
+    margin: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: "Calibri";
+    display: block;  
+}
+.imgLP {
+    
+    position: relative;
+    top: -5px;
+    left: 500px;
+    width: 33px;
+    filter: invert();
+}
+
+.imgAV {
+    width: 55px;
+    right: -10px;
+    position: relative;
+    top: 20px;
+}
+
+.imgDT {
+    position: absolute;
+    left: 55px;
+    margin-top: 14px;
+    width: 89px;
+    height: 90px;
+    top: -15px;
+}
+
+.nav-bar {
+    height: 90px;
+    background-color: #7b2cbf !important;
+    position: relative;
+}
+
+.entradaNome {
+    position: relative;
+    font-family: 'Calibri';
+    right: -3px;
+    padding: 8px;
+    height: 25px;
+    width: 675px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    font-size: 23px;
+    color: whitesmoke;
+    margin-top: 15px;
+    top: -1px;
+}
+
+.findBar {
+    font-family: 'Calibri';
+    border: 0;
+    margin-top: 0px;
+    position: relative;
+    left: 520px;
+    top: -15px;
+    width: 275px;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 19px;
+    color: white;
+    background-color: #8047cf2c;;
+    box-shadow: 2px 2px #56097f5f;;;;
+}
+
+.tool-bar {
+    
+    text-align: center;
+    margin-right: 1200px;
+    width: 200px;
+    height: 871px;
+    background-color: #343a40;
+}
+
+
+.mainButtonBar {
+    box-shadow: 2px 2px #56097f5f;;;;
+    font-size: 18px;
+    font-family: 'Calibri';
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: #7b2cbf;
+    border: 0;
+    border-radius: 7px;
+    margin-top: 100px;
+    width: 85%;
+    height: 55px;
+    cursor: pointer;
+    top: 131px;
+}
+
+
+
+.buttonBar {
+    
+    font-family: 'Calibri';
+    
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: #7b2cbf;
+    border: 0;
+    border-radius: 7px;
+    margin-top: 22px;
+    width: 85%;
+    height: 55px;
+    cursor: pointer;
+    top: 132px;
+}
+
+
+
+.logout {
+    box-shadow: 2px 2px #56097f5f;;;;
+    font-family: 'Calibri';
+    text-align: center;
+    position: relative;
+    margin-left: 50%;
+    margin-top: 0px;
+    font-size: 19px;
+    top: 3px;
+    width: 76px;
+    height: 39px;
+    color:#7b2cbf;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.barRight{
+    font-family: 'Calibri';
+    position: absolute;
+    text-align: center;
+    top: 90px;
+    margin-left: 49.5px;
+    width: 199px;
+    left: 1460px;
+    height: 873px;
+    background-color: #343a40;
+    margin-right: 15px;
+    
+}
+
+.delButton{
+    cursor: pointer;
+    font-family: 'Calibri';
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: #62626285;
+    border: 0;
+    border-radius: 7px;
+    width: 70%;
+    height: 35px;
+    margin: 15px;
+}
+.myDT{
+    font-family: 'Calibri' !important; 
+    font-size: 25px;
+    color: white;
+    
+}
+.inputFav{
+    width: 92%;
+    color: white;
+    background-color: #6262622c;
+    left: -0%;
+    height: 25px;
+    border-radius: 5px;
+    position: relative;
+    font-size: 17px;
+    text-align: center;
+    color: white;
+    border: 0;
+    margin: 3px;
+}

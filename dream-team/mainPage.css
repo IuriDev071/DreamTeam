@@ -1,0 +1,204 @@
+.inicialPage {
+  font-family: "Calibri";
+
+  top: -690px;
+  position: relative;
+  height: 700px;
+
+  width: 780px;
+  margin-left: 825px;
+}
+.user1 {
+  padding: 2px;
+  position: relative;
+  font-family: "Arial";
+  background-color: #424242;
+  height: 235px;
+  width: 85%;
+  margin-left: -20.5%;
+  top: -23%;
+  border-radius: 5px;
+}
+.user2 {
+  padding: 2px;
+  position: relative;
+  font-family: "Arial";
+  background-color: #424242;
+  height: 235px;
+  width: 85%;
+  margin-left: -20.5%;
+  top: -21%;
+  border-radius: 5px;
+}
+
+.user3 {
+  padding: 2px;
+  position: relative;
+  font-family: "Arial";
+  background-color: #424242;
+  height: 235px;
+  width: 85%;
+  margin-left: -20.5%;
+  top: -19%;
+  border-radius: 5px;
+}
+
+.user4 {
+  padding: 2px;
+  position: relative;
+  font-family: "Arial";
+  background-color: #424242;
+  height: 235px;
+  width: 85%;
+  margin-left: 84.5%;
+  top: -119%;
+  border-radius: 5px;
+}
+
+.user5 {
+  padding: 2px;
+  position: relative;
+  font-family: "Arial";
+  background-color: #424242;
+  height: 235px;
+  width: 85%;
+  margin-left: 84.5%;
+  top: -110%;
+  border-radius: 5px;
+}
+
+.titleMain {
+  font-family: "Lato" !important;
+  font-size: 30px;
+  color: white;
+  position: relative;
+  top: 4%;
+  text-align: center;
+}
+input {
+  font-family: "Roboto", sans-serif;
+}
+textarea {
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+}
+.img1 {
+  position: relative;
+  left: 1.5%;
+  top: 2.5%;
+  display: flex;
+  width: 80px;
+}
+.nome1 {
+  background-color: #626262;
+  position: relative;
+  left: 15.5%;
+  top: -27.5%;
+  height: 26px;
+  border: 0;
+  border-radius: 5px;
+  display: flex;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+.profi1 {
+  background-color: #626262;
+  position: relative;
+  left: 15.5%;
+  top: -23.5%;
+  height: 26px;
+  border: 0;
+  border-radius: 5px;
+  display: flex;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+.area1 {
+  color: white;
+  background-color: #626262;
+  position: relative;
+  left: 2.5%;
+  top: -13.5%;
+  height: 80px;
+  border: 0;
+  border-radius: 5px;
+  display: flex;
+  width: 95%;
+  font-size: 15px;
+}
+.bt1 {
+  color: white;
+  background-color: #62626285;
+  position: relative;
+  top: -11%;
+  border: 0;
+  left: 34.5%;
+  border-radius: 5px;
+  width: 26%;
+  height: 12%;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+.img2 {
+  position: relative;
+  left: 1.5%;
+  top: 2.5%;
+  display: flex;
+  width: 80px;
+}
+.nome2 {
+  background-color: #626262;
+  position: relative;
+  left: 15.5%;
+  top: -27.5%;
+  height: 26px;
+  border: 0;
+  border-radius: 5px;
+  display: flex;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+.profi2 {
+  background-color: #626262;
+  position: relative;
+  left: 15.5%;
+  top: -23.5%;
+  height: 26px;
+  border: 0;
+  border-radius: 5px;
+  display: flex;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+.area2 {
+  color: white;
+  background-color: #626262;
+  position: relative;
+  left: 2.5%;
+  top: -13.5%;
+  height: 80px;
+  border: 0;
+  border-radius: 5px;
+  display: flex;
+  width: 95%;
+  font-size: 15px;
+}
+.bt2 {
+  color: white;
+  background-color: #62626285;
+  position: relative;
+  top: -11%;
+  border: 0;
+  left: 34.5%;
+  border-radius: 5px;
+  width: 26%;
+  height: 12%;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}

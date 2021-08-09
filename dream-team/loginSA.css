@@ -1,0 +1,136 @@
+.swal-overlay {
+  background-color: rgba(184, 111, 165, 0.308);
+}
+.swal-button{
+  background-color: #6818b5 !important;
+  color: rgb(255, 255, 255) !important;
+  border: 2 solid #8047cf!important;
+}
+.swal-title{
+  color: #6818b5;
+  font-size: 25px;
+}
+.swal-text{
+  color: #6818b5;
+  font-size: 20px;
+}
+.swal-modal{
+  background-color: #ffffff;
+  border: 6px solid #6818b5;
+  border-radius: 3px;
+}
+.swal-button:hover{
+  transform: scale(1.05);
+}
+body{
+  font-family: "Calibri";
+  background-attachment: fixed;
+  background-color: #212529;
+  text-align: center;
+}
+input{
+font-family: "Calibri";
+font-size: 21px;
+background-color: rgba(115, 23, 168, 0);
+border: 0;
+outline: 0;
+box-shadow: 0 4px rgba(0,0,0,0.2);
+width: 250px;
+}
+
+table{
+margin: auto;
+margin-top: 50px;
+border-width: 10px;
+width: 450px;
+height: 590px;
+background-color: #ffffff;
+text-align: center;
+border-radius: 15px;
+box-shadow: 10px 10px rgba(0,0,0,0.2);
+position: absolute;
+top: 100px;
+left: 250px;
+}
+
+.button-cad{
+font-family: "Arial";
+font-size: 20px;
+width: 100px;
+height: 50px;
+background-color: #7b2cbf;
+color: #ffffff;
+cursor: pointer;
+
+}
+button{
+font-size: 16px;
+border: 0;
+background-color:rgba(255, 255, 255, 0);
+border-radius: 5px;
+text-align: center;
+}
+.register{
+height: 10px;
+font-size: 35px;
+}
+td{
+padding: 12px;
+}
+.button-haveAccount{
+font-family: "Calibri";
+font-size: 20px;
+background-color:rgba(255, 255, 255, 0); 
+width: 200px;
+height: 30px;
+color: rgb(0, 0, 3);
+padding: 1px;
+cursor: pointer;
+}
+
+.check{
+  width: 16px;
+  height: 16px;
+  box-shadow: 0 0;
+  cursor: pointer;
+}
+
+.lembrar{
+font-family: "Calibri";
+font-size: 20px;
+}
+.button-goCad{
+font-family: "Calibri";
+padding: 0px;
+font-size: 23px;
+background-color:rgba(255, 255, 255, 0);
+width: 120px;
+height: 40px;
+color: rgb(0, 0, 0);
+color: #a34dee;
+cursor: pointer;
+}
+
+.label1{
+font-family: "Calibri";
+color: whitesmoke;
+font-size: 19px;
+}
+
+.bar{
+font-family: "Calibri";
+padding: 21px;
+bottom: 140px;
+position: absolute;
+right: 1085px;
+
+}
+
+
+.fotinha{
+  position: absolute;
+width: 797px;
+height: 1132px;
+left: 494px;
+top: -910px;
+}

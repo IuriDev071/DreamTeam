@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro | Dream Team</title>
+  <link href="cadastroSA.css" link rel="stylesheet">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <table>
+      <tr>
+        <td>
+          <label for="title" class="register">Seja do Dream Team: </label>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <input type="text" id="nomeCompleto" placeholder="Nome completo" required />
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <input type="text" id="cpf" placeholder="CPF ou CNPJ" required />
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <input type="text" id="user" placeholder="Usuario" required />
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <input type="email" id="email" placeholder="Email" required />
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <input type="password" id="senhaCadastro" placeholder="Senha" required />
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <input type="password" id="confirmarSenha" placeholder="Confirme sua senha" required />
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <button for="cadastro" class="button-cad" onclick="Registrar()">Cadastrar</button>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <button for="possuiConta" onclick="iHaveAccount()" class="button-haveAccount">Já possuo uma conta</button>
+        </td>
+      </tr>
+    </table>
+    <div>
+      <img src="./src/img/futuro.png" class="future">
+    </div>
+    
+  </main>
+  
+  <script src="heroi.js"></script>
+  <script src="log2.js"></script>
+  <script src="buttons.js"></script>
+</body>
+
+</html>

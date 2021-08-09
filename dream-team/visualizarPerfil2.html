@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizar Perfil | DreamTeam</title>
+    <link href="visualizarPerfil.css" link rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="Default-header/header_tool.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">   
+</head>
+
+<body>
+    <header>
+        <div class="nav-bar">
+           
+
+           
+
+
+            <img src="imagens/elonmuskk.png" class="imgAV">
+            <input type="text" id="entradaNome" class="entradaNome" readonly>
+
+            <button onclick="logOut()" class="logout">Sair</button>
+        </div>
+    </header>
+    <main>
+        <div class="tool-bar">
+            <button onclick="showPerfil()" class="mainButtonBar">Perfil</button>
+            <br>
+            <button onclick="backPage()" class="buttonBar">Feed</button>
+            <br>
+            <button onclick="showDados()" class="buttonBar">Meus dados</button>
+            <br>
+            <button onclick="Direct()" class="buttonBar">Apagar conta</button>
+            <br>
+           
+        </div>
+
+        <div class="barRight">
+            <br><br>
+            <br>
+            <label class="myDT">FAVORITOS</label>
+            <br><br><br><br><br>
+            <input type="text" id="innerHtml" class="inputFav" readonly>
+                <button onclick="delButton1()" class="delButton">REMOVER</button>
+            <br><br><br>
+            <br><br><br>
+            <input type="text" id="innerHtml2" class="inputFav" readonly>
+                <button onclick="delButton2()" class="delButton">REMOVER</button>
+            <br><br><br>
+            <br><br><br>
+            <input type="text" id="innerHtml3" class="inputFav" readonly>
+                <button onclick="delButton3()" class="delButton">REMOVER</button>
+        </div>
+        <div class="perfil_User">
+            <img src="imagens/zuckk.jpg" class="imgPf">
+
+            <input type="text" id="name22" class="inputNm" readonly>
+            <input type="text" id="profi22" class="inputPfi" placeholder="Informe sua profissão" readonly>
+            <textarea id="infos22" class="inputInfo" placeholder="Adicione uma descrição sobre você" readonly style="resize: none"></textarea>
+            <textarea id="qualify22" class="inputQlf" placeholder="Adicione suas qualificações" readonly style="resize: none"></textarea>
+            <button type="button" class="buttonFav" onclick="addFavorito2()">Adicionar usuario aos favoritos</button>
+        </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="favoritos.js"></script>
+    <script src="heroi.js"></script>
+    <!-- <script src="perfil.js"></script> -->
+    <script src="log2.js"></script>
+    <script src="buttons.js"></script>
+    <script src="mainpage2.js"></script>
+</body>
+
+</html>

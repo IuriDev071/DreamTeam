@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login | Dream team </title>
+    <link href="loginSA.css" link rel="stylesheet">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">
+</head>
+
+
+    <header></header>
+    <main>
+        <table>
+            <tr>
+                <td>
+                    <label for="login" class="register">Faça seu login: </label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="nome" id="usuarioLog" placeholder="Usuário" required="required" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="password" id="senhaLog" placeholder="Senha" required="required" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input class="check" type="checkbox"><label class="lembrar">Lembrar senha</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button class="button-cad" onclick="Login()">Entrar</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button class="button-haveAccount" onclick="forgotPassword()">Esqueci minha senha</button>
+                </td>
+            </tr>
+        </table>
+        <div class="bar">
+            <label for="possuoConta" class="label1">Novo por aqui?</label>
+            <button class="button-goCad" onclick="goCad()">Cadastre-se </button>
+            <div>
+                <img src="./src/img/institu.png" class="fotinha">
+            </div>    
+        </div>        
+    </main>
+    <footer></footer>
+    <script src="heroi.js"></script>
+    <script src="log2.js"></script>
+    <script src="buttons.js"></script>
+    <!-- <script src="mainPage.js"></script> -->
+</body>
+
+</html>
